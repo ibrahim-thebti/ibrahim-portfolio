@@ -1,0 +1,328 @@
+.skills-section {
+  background: #050505;
+  color: white;
+  padding: 120px 40px;
+}
+
+.skills-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.skills-heading {
+  margin-bottom: 70px;
+}
+
+.skills-label {
+  margin: 0 0 20px;
+
+  color: #777;
+
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+}
+
+.skills-label span {
+  color: #ec4899;
+}
+
+.skills-heading h2 {
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+  font-size: 58px;
+  line-height: 1.05;
+
+  letter-spacing: -2px;
+}
+
+.skills-heading h2 span {
+  color: #ec4899;
+}
+
+.skills-heading > p:last-child {
+  max-width: 650px;
+
+  margin-top: 25px;
+
+  color: #888;
+
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* =========================
+   SECTION TITLE
+========================= */
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  margin-bottom: 25px;
+}
+
+.section-title .number {
+  color: #ec4899;
+
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+}
+
+.section-title h3 {
+  margin: 0;
+
+  color: #f5f5f5;
+
+  font-family: "JetBrains Mono", monospace;
+  font-size: 18px;
+}
+
+/* =========================
+   TECHNICAL SKILLS
+========================= */
+
+.technical-section {
+  margin-bottom: 90px;
+}
+
+.technical-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/*
+  Compact badges inspired by
+  developer technology badges.
+*/
+
+.tech-badge {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  padding: 9px 15px;
+
+  border-radius: 2px;
+
+  color: white;
+
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  font-weight: 700;
+
+  transition: 0.2s ease;
+}
+
+.tech-badge:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.1);
+}
+
+.tech-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 20px;
+  height: 20px;
+
+  font-size: 10px;
+  font-weight: 900;
+}
+
+/* Technology colors */
+
+.python {
+  background: #3475a8;
+}
+
+.c {
+  background: #8fa1b5;
+  color: #111;
+}
+
+.csharp {
+  background: #198c2e;
+}
+
+.java {
+  background: #007b8f;
+}
+
+.javaee {
+  background: #d82929;
+}
+
+.html {
+  background: #e44d26;
+}
+
+.css {
+  background: #1676b7;
+}
+
+.javascript {
+  background: #f0d900;
+  color: #111;
+}
+
+.sql {
+  background: #3f718f;
+}
+
+.plsql {
+  background: #f00000;
+}
+
+.postgresql {
+  background: #3d73a4;
+}
+
+.react {
+  background: #42c9df;
+  color: #111;
+}
+
+.vercel {
+  background: #111;
+  border: 1px solid #333;
+}
+
+.render {
+  background: #45d8bc;
+}
+
+.php {
+  background: #7770b5;
+}
+
+.github {
+  background: #3985e8;
+}
+
+.git {
+  background: #f05032;
+}
+
+/* =========================
+   SOFT SKILLS
+========================= */
+
+.soft-section {
+  margin-top: 20px;
+}
+
+.soft-skills {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 15px;
+}
+
+.soft-card {
+  position: relative;
+
+  min-height: 170px;
+
+  padding: 25px;
+
+  background: #090909;
+
+  border: 1px solid #242424;
+  border-radius: 10px;
+
+  transition: 0.2s ease;
+}
+
+.soft-card:hover {
+  border-color: #ec4899;
+  transform: translateY(-4px);
+}
+
+.soft-number {
+  color: #ec4899;
+
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+}
+
+.soft-card h4 {
+  margin: 25px 0 10px;
+
+  color: #f5f5f5;
+
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+.soft-card p {
+  margin: 0;
+
+  color: #777;
+
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+  .skills-section {
+    padding: 90px 30px;
+  }
+
+  .skills-heading h2 {
+    font-size: 48px;
+  }
+
+  .soft-skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+  .skills-section {
+    padding: 80px 20px;
+  }
+
+  .skills-heading {
+    margin-bottom: 50px;
+  }
+
+  .skills-heading h2 {
+    font-size: 40px;
+    letter-spacing: -1px;
+  }
+
+  .skills-heading > p:last-child {
+    font-size: 13px;
+  }
+
+  .technical-section {
+    margin-bottom: 65px;
+  }
+  .tech-badge {
+    padding: 8px 11px;
+    font-size: 10px;
+  }
+  .soft-skills {
+    grid-template-columns: 1fr;
+  }
+  .soft-card {
+    min-height: auto;
+  }
+}

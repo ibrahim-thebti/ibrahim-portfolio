@@ -1,0 +1,15 @@
+html{
+  scroll-behavior: smooth;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: #0e0e0e;
+}
+.navbar, .logo-text, .nav-links a, code, pre {
+  font-family: "JetBrains Mono", monospace;
+}

@@ -1,0 +1,124 @@
+.footer {
+  background: #050505;
+  color: white;
+
+  padding: 35px 20px;
+
+  text-align: center;
+
+  border-top: 1px solid #151515;
+}
+
+/* Logo */
+
+.footer-logo {
+  margin-bottom: 25px;
+
+  color: white;
+
+  font-family: "JetBrains Mono", monospace;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-logo span {
+  color: #ec4899;
+}
+
+.footer-logo span:nth-child(3) {
+  color: #facc15;
+}
+
+/* Social Icons */
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 22px;
+
+  margin-bottom: 30px;
+}
+
+.footer-socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #7d8590;
+
+  font-size: 23px;
+
+  text-decoration: none;
+
+  transition: 0.2s ease;
+}
+
+.footer-socials a:hover {
+  color: #ec4899;
+
+  transform: translateY(-3px);
+}
+
+/* Navigation */
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 30px;
+
+  margin-bottom: 30px;
+}
+
+.footer-nav a {
+  color: #9ca3af;
+
+  text-decoration: none;
+
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+
+  transition: 0.2s ease;
+}
+
+.footer-nav a:hover {
+  color: #ec4899;
+}
+
+/* Copyright */
+
+.footer-copyright {
+  margin: 0;
+
+  color: #6b7280;
+
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+}
+
+.footer-copyright span {
+  color: #ec4899;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 30px 15px;
+  }
+
+  .footer-nav {
+    gap: 18px;
+  }
+
+  .footer-nav a {
+    font-size: 12px;
+  }
+
+  .footer-copyright {
+    font-size: 10px;
+  }
+}
