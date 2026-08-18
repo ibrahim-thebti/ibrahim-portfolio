@@ -1,4 +1,4 @@
-# Ibrahim Thebti — Personal Portfolio
+# Ibrahim Thebti/Personal Portfolio
 
 A personal portfolio website built to showcase my journey as a Software Engineering student, Web Developer, Problem Solver, and AI enthusiast.
 
