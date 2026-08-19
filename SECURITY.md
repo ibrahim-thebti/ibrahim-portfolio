@@ -8,4 +8,4 @@ Please do not publicly disclose the vulnerability before it has been reviewed.
 
 You can contact me at:
 
-ibrahimthebty@example.com
+ibrahimthebty@gmail.com
