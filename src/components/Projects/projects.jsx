@@ -9,7 +9,7 @@ function Projects() {
   const projects = [
     {
       number: "01",
-      title: "TN-BAC-Average-and-Score-Calculate",
+      title: "BacTN Calculator",
       image: project1,
       description:
         "A web application that calculates BAC averages and scores, helping students quickly evaluate their baccalaureate results through a simple and user-friendly interface.",
