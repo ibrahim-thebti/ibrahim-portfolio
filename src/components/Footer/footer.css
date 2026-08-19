@@ -9,13 +9,9 @@
   border-top: 1px solid #151515;
 }
 
-/* Logo */
-
 .footer-logo {
   margin-bottom: 25px;
-
   color: white;
-
   font-family: "JetBrains Mono", monospace;
   font-size: 20px;
   font-weight: 700;
@@ -27,17 +23,13 @@
 
 .footer-logo span:nth-child(3) {
   color: #facc15;
+  letter-spacing: 1px;
 }
-
-/* Social Icons */
-
 .footer-socials {
   display: flex;
   justify-content: center;
   align-items: center;
-
   gap: 22px;
-
   margin-bottom: 30px;
 }
 
@@ -60,9 +52,6 @@
 
   transform: translateY(-3px);
 }
-
-/* Navigation */
-
 .footer-nav {
   display: flex;
   justify-content: center;
@@ -87,9 +76,6 @@
 .footer-nav a:hover {
   color: #ec4899;
 }
-
-/* Copyright */
-
 .footer-copyright {
   margin: 0;
 
@@ -98,13 +84,9 @@
   font-family: "JetBrains Mono", monospace;
   font-size: 12px;
 }
-
 .footer-copyright span {
   color: #ec4899;
 }
-
-/* Mobile */
-
 @media (max-width: 600px) {
   .footer {
     padding: 30px 15px;
