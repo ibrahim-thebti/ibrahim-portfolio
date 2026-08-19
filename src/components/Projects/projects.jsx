@@ -19,7 +19,7 @@ function Projects() {
     },
     {
       number: "02",
-      title: "Emotion detection",
+      title: "Emotion Classifier",
       image: project2,
       description:
         "Emotion detection is a web application that uses the Gemini API to analyze facial expressions and infer emotions.",
