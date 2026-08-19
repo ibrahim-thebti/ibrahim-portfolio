@@ -11,10 +11,10 @@ function Certifications() {
   const certifications = [
     {
       image: certificate1,
-      title: "Certification Name",
-      organization: "Issuing Organization",
-      date: "2025",
-      link: "https://example.com/certificate1",
+      title: "GitHun Foundations GH-900",
+      organization: "Microsoft",
+      date: "Aug 2026",
+      link: "https://learn.microsoft.com/api/credentials/share/en-gb/ThebtiIbrahim-6599/AC346B4828BB05CD?sharingId=21B30527B78990EA",
     },
     {
       image: certificate2,
