@@ -1,42 +1,51 @@
 import "./projects.css";
 
+import project1 from "../../images/projects/image.png";
+import project2 from "../../images/projects/image2.png";
+import project3 from "../../images/projects/image3.png";
+import project4 from "../../images/projects/image4.png";
+
 function Projects() {
   const projects = [
     {
       number: "01",
-      title: "Project One",
+      title: "TN-BAC-Average-and-Score-Calculate",
+      image: project1,
       description:
-        "A short description explaining what the project does, the problem it solves, and what you learned from building it.",
-      technologies: ["React", "JavaScript", "CSS"],
-      github: "#",
-      demo: "#",
+        "A web application that calculates BAC averages and scores, helping students quickly evaluate their baccalaureate results through a simple and user-friendly interface.",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/ibrahim-thebti/TN-BAC-Average-and-Score-Calculate",
+      demo: "https://ibrahim-thebti.github.io/TN-BAC-Average-and-Score-Calculate/",
     },
     {
       number: "02",
-      title: "Project Two",
+      title: "Emotion detection",
+      image: project2,
       description:
-        "A short description explaining the main idea of the project and the technologies you used to build it.",
-      technologies: ["Java", "SQL", "PostgreSQL"],
-      github: "#",
-      demo: "#",
+        "Emotion detection is a web application that uses the Gemini API to analyze facial expressions and infer emotions.",
+      technologies: ["Python", "API", "React"],
+      github: "https://github.com/ibrahim-thebti/emotion-detection-frontend",
+      demo: "https://emotion-detection-bt.vercel.app/",
     },
     {
       number: "03",
-      title: "Project Three",
+      title: "Weather Forecasts",
+      image: project3,
       description:
-        "A project focused on solving a particular problem through software and applying your technical knowledge.",
-      technologies: ["Python", "AI", "Machine Learning"],
-      github: "#",
-      demo: "#",
+        "A responsive weather forecast app that uses an API to fetch real-time weather data and display current conditions, temperature, and forecasts for different locations.",
+      technologies: ["HTML", "CSS", "API","JavaScript"],
+      github: "https://github.com/ibrahim-thebti/Weather-Forecasts",
+      demo: "https://weatherapp.freedev.app/",
     },
     {
       number: "04",
-      title: "Project Four",
+      title: "Calculator",
+      image: project4,
       description:
-        "Another project that demonstrates your ability to design, develop, and improve a software solution.",
+        "A simple and responsive calculator built with HTML, CSS, and JavaScript, supporting basic arithmetic operations with a clean and intuitive interface.",
       technologies: ["HTML", "CSS", "JavaScript"],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/ibrahim-thebti/Calculator",
+      demo: "https://ibrahim-thebti.github.io/Calculator/",
     },
   ];
 
@@ -44,7 +53,6 @@ function Projects() {
     <section id="projects" className="projects">
       <div className="projects-container">
 
-        {/* Heading */}
         <div className="projects-heading">
           <p className="projects-label">
             <span>//</span> selected-projects
@@ -62,10 +70,14 @@ function Projects() {
           </p>
         </div>
 
-        {/* Projects */}
         <div className="projects-grid">
           {projects.map((project) => (
             <article className="project-card" key={project.number}>
+
+              {/* Project image */}
+              <div className="project-image">
+                <img src={project.image} alt={project.title} />
+              </div>
 
               <div className="project-top">
                 <span className="project-number">
