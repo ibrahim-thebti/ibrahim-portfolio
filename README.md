@@ -54,4 +54,4 @@ src/
 │   └── ...
 │
 ├── App.jsx
-└── main.jsx
+└── App.css
