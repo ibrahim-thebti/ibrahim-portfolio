@@ -251,7 +251,7 @@
     flex-wrap: wrap;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .home{
     padding:120px 40px;
   }
