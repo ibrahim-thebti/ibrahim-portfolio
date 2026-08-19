@@ -22,7 +22,7 @@ function Projects() {
       title: "Emotion Classifier",
       image: project2,
       description:
-        "Emotion detection is a web application that uses the Gemini API to analyze facial expressions and infer emotions.",
+        "Emotion Classifier is a web application that uses the Gemini API to analyze facial expressions and infer emotions.",
       technologies: ["Python", "API", "React"],
       github: "https://github.com/ibrahim-thebti/emotion-detection-frontend",
       demo: "https://emotion-detection-bt.vercel.app/",
