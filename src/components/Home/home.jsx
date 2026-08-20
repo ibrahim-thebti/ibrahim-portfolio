@@ -1,4 +1,4 @@
-import ibrahimThebti from "../../images/ibrahimThebti.jpeg";
+import ibrahimThebti from "../../images/pfp.png";
 import "./home.css";
 
 function Home() {
