@@ -31,7 +31,7 @@
   object-fit: cover;
   border-radius: 28px;
   display: block;
-  border: 1px solid #292929;
+  border: 1px solid #000000;
 }
 .photo-badge {
   position: absolute;
