@@ -1,6 +1,6 @@
 # Security Policy
 
-## Reporting a Vulnerability
+## Reporting A Vulnerability
 
 If you discover a security vulnerability in this project, please report it privately.
 
