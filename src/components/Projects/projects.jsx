@@ -15,7 +15,7 @@ function Projects() {
         "A web application that calculates BAC averages and scores, helping students quickly evaluate their baccalaureate results through a simple and user-friendly interface.",
       technologies: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/ibrahim-thebti/TN-BAC-Average-and-Score-Calculate",
-      demo: "https://ibrahim-thebti.github.io/TN-BAC-Average-and-Score-Calculate/",
+      demo: "https://ibrahim-thebti.github.io/BacTN-Calculator/",
     },
     {
       number: "02",
