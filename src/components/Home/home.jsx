@@ -1,6 +1,6 @@
 import ibrahimThebti from "../../images/pfp.png";
 import "./home.css";
-
+import { FaReact } from "react-icons/fa";
 function Home() {
   return (
     <section id="home" className="home">
@@ -51,10 +51,12 @@ function Home() {
           </p>
 
           <div className="skills">
-            <div className="skill">
-              <span className="skill-icon react">⚛</span>
+           <div className="skill">
+              <span className="skill-icon react">
+                <FaReact />
+              </span>
               <span>React</span>
-            </div>
+              </div>
 
             <div className="skill">
               <span className="skill-icon js">JS</span>
