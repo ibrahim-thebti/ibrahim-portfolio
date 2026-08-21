@@ -148,6 +148,7 @@
 .skill-icon.react {
   color: #61dafb;
   font-size: 19px;
+  background: none !important;
 }
 .skill-icon.js {
   color: #facc15;
