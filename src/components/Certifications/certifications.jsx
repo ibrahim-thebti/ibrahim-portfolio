@@ -32,7 +32,7 @@ function Certifications() {
     },
     {
       image: certificate4,
-      title: "Microsoft AI Azure Fundamentals AI-901",
+      title: "Microsoft Azure AI Fundamentals AI-901",
       organization: "Microsoft",
       date: "July 2026",
       link: "https://learn.microsoft.com/api/credentials/share/en-gb/ThebtiIbrahim-6599/53C34AD4DB46CC8E?sharingId=21B30527B78990EA",
