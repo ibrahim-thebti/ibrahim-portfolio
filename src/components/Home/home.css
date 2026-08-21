@@ -156,8 +156,9 @@
 }
 .skill-icon.python {
   color: #67ff4f;
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 800;
+  background: none !important;
 }
 .skill-icon.ai {
   color: #ec4899;

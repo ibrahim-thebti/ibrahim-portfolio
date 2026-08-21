@@ -64,7 +64,7 @@ function Home() {
             </div>
 
             <div className="skill">
-              <span className="skill-icon python">Py</span>
+              <span className="skill-icon python">PY</span>
               <span>Problem Solving</span>
             </div>
 
