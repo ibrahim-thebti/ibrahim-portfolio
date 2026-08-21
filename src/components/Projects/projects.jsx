@@ -1,9 +1,9 @@
 import "./projects.css";
 
-import project1 from "../../images/projects/image.png";
-import project2 from "../../images/projects/image2.png";
-import project3 from "../../images/projects/image3.png";
-import project4 from "../../images/projects/image4.png";
+import project1 from "../../images/projects/project1.png";
+import project2 from "../../images/projects/project2.png";
+import project3 from "../../images/projects/project3.png";
+import project4 from "../../images/projects/project4.png";
 
 function Projects() {
   const projects = [
