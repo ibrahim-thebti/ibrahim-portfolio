@@ -17,11 +17,11 @@ body {
   left: 0;
   z-index: 50;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   max-width: 100vw;
-  padding: 20px 50px;
+  padding: 18px 130px;
   background-color: #050505c4;
   backdrop-filter: blur(15px);
   border-bottom: .5px solid #ec489a1b;
@@ -79,29 +79,34 @@ body {
 }
 .nav-link {
   position: relative;
+  top:3px;
   display: flex;
   align-items: center;
   gap: 0.4rem;
   padding-bottom: 0.5rem;
   text-decoration: none;
   font-family: "JetBrains Mono", monospace;
-  font-size: 0.95rem;
+  font-size: .875rem;;
   font-weight: 500;
   color: #ec4899;
   white-space: nowrap;
   transition: color 0.2s ease;
 }
+.nav-link svg {
+  width: 18px;
+  height: 18px;
+  stroke: #eab308;
+  transition: stroke 0.2s ease;
+  flex-shrink: 0;
+}
 .nav-link span:last-child {
   color: #9ca3af;
   transition: color 0.2s ease;
 }
+.nav-link:hover svg {
+  stroke: #ec4899;
+}
 .nav-link:hover span:last-child {
-  color: #f4f4f5;
-}
-.nav-link.active {
-  color: #eab308;
-}
-.nav-link.active span:last-child {
   color: #f4f4f5;
 }
 .hamburger {

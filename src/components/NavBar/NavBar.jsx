@@ -3,6 +3,7 @@ import "./NavBar.css";
 import useSectionLoading from "../animations/useSectionLoading";
 import Skeleton from "../animations/Skeleton";
 import useScrollProgress from "./useScrollProgress";
+import { FiHome, FiUser, FiCode, FiFolder, FiAward, FiMail } from "react-icons/fi";
 
 function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -41,22 +42,22 @@ function NavBar() {
       <div className={`nav-links ${menuOpen ? "open" : ""}`}>
 
         <a href="#home" className="nav-link active" onClick={closeMenu}>
-          <span>🏠</span>
+          <FiHome />
           <span>Home</span>
         </a>
 
         <a href="#about" className="nav-link" onClick={closeMenu}>
-          <span>👤</span>
+          <FiUser />
           <span>About</span>
         </a>
 
         <a href="#skills" className="nav-link" onClick={closeMenu}>
-          <span>💻</span>
+          <FiCode />
           <span>Skills</span>
         </a>
 
         <a href="#projects" className="nav-link" onClick={closeMenu}>
-          <span>📁</span>
+          <FiFolder />
           <span>Projects</span>
         </a>
 
@@ -65,12 +66,12 @@ function NavBar() {
           className="nav-link"
           onClick={closeMenu}
         >
-          <span>🏆</span>
+          <FiAward />
           <span>Certs</span>
         </a>
 
         <a href="#contact" className="nav-link" onClick={closeMenu}>
-          <span>✉️</span>
+          <FiMail />
           <span>Contact</span>
         </a>
 
