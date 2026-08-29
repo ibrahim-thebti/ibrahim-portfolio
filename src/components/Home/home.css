@@ -1,0 +1,270 @@
+.home {
+  min-height: 90vh;
+  background: #050505;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 40px;
+}
+.home-content {
+  width: 100%;
+  max-width: 1250px;
+  display: grid;
+  grid-template-columns: 390px 1fr;
+  align-items: center;
+  gap: 70px;
+}
+.photo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photo-wrapper {
+  position: relative;
+  width: 320px;
+  height:450px;
+}
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 28px;
+  display: block;
+  border: 1px solid #0d0d0d;
+}
+.photo-badge {
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5c400cb;
+  color: #050505;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(245, 196, 0, 0.25);
+  animation: bounce 3s infinite ease-in-out;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.photo-badge span {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transform: translateX(-2px);
+}
+.photo-caption {
+  width: 390px;
+  margin-top: 18px;
+  color: #666;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+}
+.photo-caption span {
+  color: #f0b900;
+}
+.hero-text {
+  max-width: 760px;
+}
+.code-greeting {
+  margin-bottom: 22px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 16px;
+}
+.pink {
+  color: #ec4899;
+}
+.blue {
+  color: #4f9cff;
+}
+.yellow {
+  color: #facc15;
+}
+.green {
+  color: #22c55e;
+}
+.white {
+  color: #e5e7eb;
+}
+.hero-text h1 {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 64px;
+  line-height: 1.05;
+  font-weight: 800;
+  letter-spacing: -3px;
+}
+.highlight {
+  color: #ec4899;
+}
+.intro {
+  max-width: 700px;
+  margin: 30px 0 20px;
+  color: #b7b7b7;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.code-line {
+  margin: 22px 0 30px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  color: #aaa;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 13px;
+  background: #0c0c0c;
+  border: 1px solid #252525;
+  border-radius: 8px;
+  color: #aaa;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+}
+.skill-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+.skill-icon.react {
+  color: #61dafb;
+  font-size: 19px;
+  background: none !important;
+}
+.skill-icon.js {
+  color: #facc15;
+  font-size: 11px;
+  font-weight: 800;
+}
+.skill-icon.python {
+  color: #67ff4f;
+  font-size: 11px;
+  font-weight: 800;
+  background: none !important;
+}
+.skill-icon.ai {
+  color: #ec4899;
+  font-size: 11px;
+  font-weight: 800;
+}
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 35px;
+}
+.primary-btn,
+.secondary-btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  transition: 0.2s ease;
+}
+.primary-btn {
+  background: #ec4899;
+  color: white;
+}
+.primary-btn:hover {
+  background: #db2777;
+  transform: translateY(-2px);
+}
+.secondary-btn {
+  color: #aaa;
+  border: 1px solid #333;
+}
+.secondary-btn:hover {
+  color: white;
+  border-color: #666;
+}
+@media (max-width: 1050px) {
+  .home-content {
+    grid-template-columns: 320px 1fr;
+    gap: 45px;
+  }
+  .photo-wrapper {
+    width: 320px;
+    height: 390px;
+  }
+  .photo-caption {
+    width: 320px;
+  }
+  .hero-text h1 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 750px) {
+  .home {
+    padding: 60px 20px;
+  }
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 45px;
+  }
+  .photo-wrapper {
+    width: 290px;
+    height: 340px;
+  }
+  .photo-caption {
+    width: 290px;
+    text-align: left;
+  }
+  .hero-text {
+    width: 100%;
+  }
+  .hero-text h1 {
+    font-size: 40px;
+    letter-spacing: -1.5px;
+  }
+  .intro {
+    font-size: 14px;
+  }
+  .code-line {
+    font-size: 12px;
+    overflow-wrap: anywhere;
+  }
+  .skills {
+    justify-content: center;
+  }
+  .hero-actions {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 500px) {
+  .home{
+    padding:120px 40px;
+  }
+  .photo-wrapper {
+    width: 250px;
+    height: 300px;
+  }
+  .photo-caption {
+    width: 250px;
+  }
+  .hero-text h1 {
+    font-size: 34px;
+  }
+}
