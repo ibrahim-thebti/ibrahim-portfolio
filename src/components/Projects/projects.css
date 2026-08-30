@@ -17,31 +17,51 @@
 .projects-label {
   margin: 0 0 20px;
   color: #777;
+<<<<<<< HEAD
   font-family: "JetBrains Mono", monospace;
+=======
+  font-family: "Geist Mono", monospace;
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 14px;
 }
 
 .projects-label span {
+<<<<<<< HEAD
   color: #ec4899;
+=======
+  color: #ff2d78;
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
 }
 
 .projects-heading h2 {
   margin: 0;
+<<<<<<< HEAD
   font-family: Arial, sans-serif;
+=======
+  font-family: "Geist", sans-serif;
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 58px;
   line-height: 1.05;
   letter-spacing: -2px;
 }
 
 .projects-heading h2 span {
+<<<<<<< HEAD
   color: #ec4899;
+=======
+  color: #ff2d78;
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
 }
 
 .projects-heading > p:last-child {
   max-width: 650px;
   margin-top: 25px;
   color: #888;
+<<<<<<< HEAD
   font-family: "JetBrains Mono", monospace;
+=======
+  font-family: "Geist Mono", monospace;
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 14px;
   line-height: 1.7;
 }
@@ -64,7 +84,11 @@
 }
 
 .project-card:hover {
+<<<<<<< HEAD
   border-color: #ec4899;
+=======
+  border-color: #ff2d78;
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   transform: translateY(-5px);
 }
 
@@ -98,8 +122,13 @@
 }
 
 .project-number {
+<<<<<<< HEAD
   color: #ec4899;
   font-family: "JetBrains Mono", monospace;
+=======
+  color: #ff2d78;
+  font-family: "Geist Mono", monospace;
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 13px;
 }
 
@@ -111,7 +140,11 @@
 .project-links a {
   color: #777;
   text-decoration: none;
+<<<<<<< HEAD
   font-family: "JetBrains Mono", monospace;
+=======
+  font-family: "Geist Mono", monospace;
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 11px;
   transition: 0.2s ease;
 }
@@ -127,7 +160,11 @@
 .project-content h3 {
   margin: 0 0 15px;
   color: #f5f5f5;
+<<<<<<< HEAD
   font-family: Arial, sans-serif;
+=======
+  font-family: "Geist", sans-serif;
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 28px;
 }
 
@@ -135,7 +172,11 @@
   max-width: 500px;
   margin: 0;
   color: #777;
+<<<<<<< HEAD
   font-family: "JetBrains Mono", monospace;
+=======
+  font-family: "Geist Mono", monospace;
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 13px;
   line-height: 1.7;
 }
@@ -153,14 +194,22 @@
   border: 1px solid #292929;
   border-radius: 5px;
   color: #aaa;
+<<<<<<< HEAD
   font-family: "JetBrains Mono", monospace;
+=======
+  font-family: "Geist Mono", monospace;
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 10px;
   transition: 0.2s ease;
 }
 
 .project-tech span:hover {
   color: #f4f4f5;
+<<<<<<< HEAD
   border-color: #ec4899;
+=======
+  border-color: #ff2d78;
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
 }
 
 @media (max-width: 850px) {

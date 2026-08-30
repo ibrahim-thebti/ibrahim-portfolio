@@ -42,7 +42,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f5c400cb;
+  background: #ffb800cb;
   color: #050505;
   border-radius: 20px;
   box-shadow: 0 12px 30px rgba(245, 196, 0, 0.25);
@@ -57,7 +57,7 @@
   }
 }
 .photo-badge span {
-  font-family: Arial, sans-serif;
+  font-family: "Geist", sans-serif;
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -67,28 +67,80 @@
   width: 390px;
   margin-top: 18px;
   color: #666;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Geist Mono", monospace;
   font-size: 13px;
 }
 .photo-caption span {
-  color: #f0b900;
+  color: #ffb800;
 }
 .hero-text {
   max-width: 760px;
 }
+.code-window {
+  border: 1px solid #1f1f1f;
+  border-radius: 12px;
+  background: #0a0a0a;
+  overflow: hidden;
+}
+.code-window-header {
+  padding: 10px 18px;
+  background: #111111;
+  border-bottom: 1px solid #1f1f1f;
+}
+.code-window-tab {
+  font-family: "Geist Mono", monospace;
+  font-size: 12px;
+  color: #888;
+}
+.code-window-body {
+  padding: 20px 22px;
+}
+.code-row {
+  display: flex;
+  gap: 18px;
+  min-height: 1.9em;
+  align-items: baseline;
+}
+.line-number {
+  flex-shrink: 0;
+  width: 16px;
+  font-family: "Geist Mono", monospace;
+  font-size: 13px;
+  color: #3a3a3a;
+  text-align: right;
+  user-select: none;
+}
+.line-content {
+  font-family: "Geist Mono", monospace;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #e5e7eb;
+}
+.code-row-title .line-content {
+  font-family: "Geist", sans-serif;
+  font-size: 55px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  line-height: 1.15;
+}
+.line-content.intro {
+  font-size: 15px;
+  color: #b7b7b7;
+  line-height: 1.7;
+}
 .code-greeting {
   margin-bottom: 22px;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Geist Mono", monospace;
   font-size: 16px;
 }
 .pink {
-  color: #ec4899;
+  color: #ff2d78;
 }
 .blue {
   color: #4f9cff;
 }
 .yellow {
-  color: #facc15;
+  color: #ffb800;
 }
 .green {
   color: #22c55e;
@@ -96,32 +148,11 @@
 .white {
   color: #e5e7eb;
 }
-.hero-text h1 {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  font-size: 64px;
-  line-height: 1.05;
-  font-weight: 800;
-  letter-spacing: -3px;
-}
 .highlight {
-  color: #ec4899;
-}
-.intro {
-  max-width: 700px;
-  margin: 30px 0 20px;
-  color: #b7b7b7;
-  font-family: "JetBrains Mono", monospace;
-  font-size: 16px;
-  line-height: 1.7;
-}
-.code-line {
-  margin: 22px 0 30px;
-  font-family: "JetBrains Mono", monospace;
-  font-size: 14px;
-  color: #aaa;
+  color: #ff2d78;
 }
 .skills {
+  margin-top: 24px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -135,7 +166,7 @@
   border: 1px solid #252525;
   border-radius: 8px;
   color: #aaa;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Geist Mono", monospace;
   font-size: 12px;
 }
 .skill-icon {
@@ -151,7 +182,7 @@
   background: none !important;
 }
 .skill-icon.js {
-  color: #facc15;
+  color: #ffb800;
   font-size: 11px;
   font-weight: 800;
 }
@@ -162,7 +193,7 @@
   background: none !important;
 }
 .skill-icon.ai {
-  color: #ec4899;
+  color: #ff2d78;
   font-size: 11px;
   font-weight: 800;
 }
@@ -177,16 +208,16 @@
   padding: 12px 20px;
   border-radius: 8px;
   text-decoration: none;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Geist Mono", monospace;
   font-size: 13px;
   transition: 0.2s ease;
 }
 .primary-btn {
-  background: #ec4899;
+  background: #ff2d78;
   color: white;
 }
 .primary-btn:hover {
-  background: #db2777;
+  background: #e0125f;
   transform: translateY(-2px);
 }
 .secondary-btn {
@@ -209,8 +240,8 @@
   .photo-caption {
     width: 320px;
   }
-  .hero-text h1 {
-    font-size: 48px;
+  .code-row-title .line-content {
+    font-size: 32px;
   }
 }
 @media (max-width: 750px) {
@@ -234,15 +265,21 @@
   .hero-text {
     width: 100%;
   }
-  .hero-text h1 {
-    font-size: 40px;
-    letter-spacing: -1.5px;
+  .code-window-body {
+    padding: 16px 18px;
   }
-  .intro {
-    font-size: 14px;
+  .code-row {
+    gap: 12px;
   }
-  .code-line {
-    font-size: 12px;
+  .code-row-title .line-content {
+    font-size: 26px;
+    letter-spacing: -1px;
+  }
+  .line-content.intro {
+    font-size: 13px;
+  }
+  .line-content {
+    font-size: 13px;
     overflow-wrap: anywhere;
   }
   .skills {
@@ -264,7 +301,8 @@
   .photo-caption {
     width: 250px;
   }
-  .hero-text h1 {
-    font-size: 34px;
+  .code-row-title .line-content {
+    font-size: 33px;
+    text-align: center;
   }
 }

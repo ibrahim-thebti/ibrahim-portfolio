@@ -6,6 +6,7 @@ import Projects from './components/Projects/projects';
 import Certs from './components/Certifications/certifications';
 import Contact from './components/Contact/contact';
 import Footer from './components/Footer/footer';
+import { Analytics } from "@vercel/analytics/next";
 import './App.css';
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
         <Certs />
         <Contact />
         <Footer />
+        <Analytics />
         </>
     )
 }

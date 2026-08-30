@@ -51,6 +51,7 @@ function Home() {
           </p>
         </div>
         <div className="hero-text">
+<<<<<<< HEAD
           <div className="code-greeting">
             <span className="pink">&lt;hello</span>{" "}
             <span className="blue">name</span>
@@ -79,6 +80,65 @@ function Home() {
             </span>
             <span className="white">;</span>
           </p>
+=======
+          <div className="code-window">
+            <div className="code-window-header">
+              <span className="code-window-tab">hero.dev</span>
+            </div>
+            <div className="code-window-body">
+              <div className="code-row">
+                <span className="line-number">1</span>
+                <span className="line-content">
+                  <span className="pink">&lt;hello</span>{" "}
+                  <span className="blue">name</span>
+                  <span className="white">=</span>
+                  <span className="yellow">"Ibrahim"</span>
+                  <span className="pink">&gt;</span>
+                </span>
+              </div>
+              <div className="code-row">
+                <span className="line-number">2</span>
+                <span className="line-content"></span>
+              </div>
+              <div className="code-row code-row-title">
+                <span className="line-number">3</span>
+                <span className="line-content">Software Engineering</span>
+              </div>
+              <div className="code-row code-row-title">
+                <span className="line-number">4</span>
+                <span className="line-content">
+                  <span className="highlight">Student</span> &amp; Web Developer
+                </span>
+              </div>
+              <div className="code-row">
+                <span className="line-number">5</span>
+                <span className="line-content"></span>
+              </div>
+              <div className="code-row">
+                <span className="line-number">6</span>
+                <span className="line-content intro">
+                  I enjoy turning ideas into{" "}
+                  <span className="yellow">real things</span> through code.
+                  I'm passionate about web development,{" "}
+                  <span className="blue">problem solving</span>, and exploring
+                  the world of <span className="green">AI</span>.
+                </span>
+              </div>
+              <div className="code-row">
+                <span className="line-number">7</span>
+                <span className="line-content">
+                  <span className="pink">const</span>{" "}
+                  <span className="blue">focus</span>{" "}
+                  <span className="white">=</span>{" "}
+                  <span className="yellow">
+                    ["Web", "Problem Solving", "AI"]
+                  </span>
+                  <span className="white">;</span>
+                </span>
+              </div>
+            </div>
+          </div>
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
 
           <div className="skills stagger-list">
            <div className="skill">

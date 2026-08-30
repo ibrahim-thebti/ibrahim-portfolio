@@ -7,9 +7,17 @@ html{
     margin: 0;
 }
 body {
+<<<<<<< HEAD
   font-family: "Inter", sans-serif;
    background-color: #050505e9;
 }
 .navbar, .logo-text, .nav-links a, code, pre {
   font-family: "JetBrains Mono", monospace;
+=======
+  font-family: "Geist", sans-serif;
+   background-color: #050505e9;
+}
+.navbar, .logo-text, .nav-links a, code, pre {
+  font-family: "Geist Mono", monospace;
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
 }

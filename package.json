@@ -10,6 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "@vercel/analytics": "^2.0.1",
+>>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
     "motion": "^13.1.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
