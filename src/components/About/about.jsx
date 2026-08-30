@@ -8,11 +8,7 @@ import {
 import "./about.css";
 
 const STATEMENT =
-<<<<<<< HEAD
-  "I'm a Software Engineering student who enjoys turning ideas into useful things — building for the web, solving problems, and learning how technology can be pushed further.";
-=======
   "I'm a Software Engineering student who enjoys turning ideas into useful things: building for the web, solving problems, and learning how technology can be pushed further.";
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
 const START_OPACITY = 0.15;
 const SPREAD = 0.8;
 const WORD_DURATION = 0.2;
