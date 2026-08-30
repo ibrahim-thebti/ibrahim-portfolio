@@ -19,31 +19,17 @@
   margin: 0 0 20px;
 
   color: #777;
-
-<<<<<<< HEAD
-  font-family: "JetBrains Mono", monospace;
-=======
   font-family: "Geist Mono", monospace;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 14px;
 }
 
 .skills-label span {
-<<<<<<< HEAD
-  color: #ec4899;
-=======
   color: #ff2d78;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
 }
 
 .skills-heading h2 {
   margin: 0;
-
-<<<<<<< HEAD
-  font-family: Arial, sans-serif;
-=======
   font-family: "Geist", sans-serif;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 58px;
   line-height: 1.05;
 
@@ -51,71 +37,36 @@
 }
 
 .skills-heading h2 span {
-<<<<<<< HEAD
-  color: #ec4899;
-=======
   color: #ff2d78;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
 }
 
 .skills-heading > p:last-child {
   max-width: 650px;
-
   margin-top: 25px;
-
   color: #888;
-
-<<<<<<< HEAD
-  font-family: "JetBrains Mono", monospace;
-=======
   font-family: "Geist Mono", monospace;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 14px;
   line-height: 1.7;
 }
-
-/* =========================
-   SECTION TITLE
-========================= */
-
 .section-title {
   display: flex;
   align-items: center;
   gap: 15px;
-
   margin-bottom: 25px;
 }
 
 .section-title .number {
-<<<<<<< HEAD
-  color: #ec4899;
-
-  font-family: "JetBrains Mono", monospace;
-=======
   color: #ff2d78;
-
   font-family: "Geist Mono", monospace;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 12px;
 }
 
 .section-title h3 {
   margin: 0;
-
   color: #f5f5f5;
-
-<<<<<<< HEAD
-  font-family: "JetBrains Mono", monospace;
-=======
   font-family: "Geist Mono", monospace;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 18px;
 }
-
-/* =========================
-   TECHNICAL SKILLS
-========================= */
-
 .technical-section {
   margin-bottom: 90px;
 }
@@ -125,78 +76,51 @@
   flex-wrap: wrap;
   gap: 8px;
 }
-
-/*
-  Compact badges inspired by
-  developer technology badges.
-*/
-
 .tech-badge {
   display: flex;
   align-items: center;
   gap: 9px;
-
   padding: 9px 15px;
-
   border-radius: 2px;
-
   color: white;
-
-<<<<<<< HEAD
-  font-family: "JetBrains Mono", monospace;
-=======
   font-family: "Geist Mono", monospace;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 12px;
   font-weight: 700;
-
   transition: 0.2s ease;
 }
-
 .tech-badge:hover {
   transform: translateY(-3px);
   filter: brightness(1.1);
 }
-
 .tech-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-
   width: 20px;
   height: 20px;
 
   font-size: 10px;
   font-weight: 900;
 }
-
-/* Technology colors */
-
 .python {
   background: #3475a8;
 }
-
 .c {
   background: #8fa1b5;
   color: #111;
 }
-
 .csharp {
   background: #198c2e;
 }
-
 .java {
   background: #007b8f;
 }
-
 .javaee {
   background: #d82929;
 }
-
 .html {
   background: #e44d26;
 }
-
 .css {
   background: #1676b7;
 }
@@ -243,11 +167,6 @@
 .git {
   background: #f05032;
 }
-
-/* =========================
-   SOFT SKILLS
-========================= */
-
 .soft-section {
   margin-top: 20px;
 }
@@ -276,57 +195,30 @@
 }
 
 .soft-card:hover {
-<<<<<<< HEAD
-  border-color: #ec4899;
-=======
   border-color: #ff2d78;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   transform: translateY(-4px);
 }
 
 .soft-number {
-<<<<<<< HEAD
-  color: #ec4899;
-
-  font-family: "JetBrains Mono", monospace;
-=======
   color: #ff2d78;
-
   font-family: "Geist Mono", monospace;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 11px;
 }
 
 .soft-card h4 {
   margin: 25px 0 10px;
-
   color: #f5f5f5;
-
-<<<<<<< HEAD
-  font-family: Arial, sans-serif;
-=======
   font-family: "Geist", sans-serif;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 20px;
 }
 
 .soft-card p {
   margin: 0;
-
   color: #777;
-
-<<<<<<< HEAD
-  font-family: "JetBrains Mono", monospace;
-=======
   font-family: "Geist Mono", monospace;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 12px;
   line-height: 1.7;
 }
-
-/* =========================
-   TABLET
-========================= */
 
 @media (max-width: 900px) {
   .skills-section {
@@ -341,11 +233,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-/* =========================
-   MOBILE
-========================= */
-
 @media (max-width: 600px) {
   .skills-section {
     padding: 80px 20px;

@@ -24,11 +24,8 @@ body {
   padding: 18px 130px;
   background-color: #050505c4;
   backdrop-filter: blur(15px);
-<<<<<<< HEAD
-  border-bottom: .5px solid #ec489a1b;
-=======
   border-bottom: .5px solid #ff2d781b;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
+
 }
 .scroll-progress {
   position: absolute;
@@ -47,11 +44,7 @@ body {
   height: 100%;
   transform: scaleX(0);
   transform-origin: left center;
-<<<<<<< HEAD
-  background: linear-gradient(90deg, #ec4899, #facc15);
-=======
   background: linear-gradient(90deg, #ff2d78, #ffb800);
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   will-change: transform;
 }
 .logo {
@@ -63,33 +56,21 @@ body {
 .logo-text {
   display: inline-flex;
   align-items: center;
-<<<<<<< HEAD
-  font-family: "JetBrains Mono", monospace;
-=======
   font-family: "Geist Mono", monospace;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   font-size: 1.3rem;
   font-weight: 900;
   line-height: 1;
   letter-spacing: -0.5px;
 }
 .logo-text .bracket {
-<<<<<<< HEAD
-  color: #ec4899;
-=======
   color: #ff2d78;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
 }
 .logo-text .name {
   color: #f4f4f5;
   font-size: 0.9em;
 }
 .logo-text .dev {
-<<<<<<< HEAD
-  color: #eab308;
-=======
   color: #ffb800;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
 }
 .nav-links {
   display: flex;
@@ -105,28 +86,17 @@ body {
   gap: 0.4rem;
   padding-bottom: 0.5rem;
   text-decoration: none;
-<<<<<<< HEAD
-  font-family: "JetBrains Mono", monospace;
-  font-size: .875rem;;
-  font-weight: 500;
-  color: #ec4899;
-=======
   font-family: "Geist Mono", monospace;
   font-size: .875rem;;
   font-weight: 500;
   color: #ff2d78;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   white-space: nowrap;
   transition: color 0.2s ease;
 }
 .nav-link svg {
   width: 18px;
   height: 18px;
-<<<<<<< HEAD
-  stroke: #eab308;
-=======
   stroke: #ffb800;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
   transition: stroke 0.2s ease;
   flex-shrink: 0;
 }
@@ -135,11 +105,7 @@ body {
   transition: color 0.2s ease;
 }
 .nav-link:hover svg {
-<<<<<<< HEAD
-  stroke: #ec4899;
-=======
   stroke: #ff2d78;
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
 }
 .nav-link:hover span:last-child {
   color: #f4f4f5;

@@ -51,36 +51,6 @@ function Home() {
           </p>
         </div>
         <div className="hero-text">
-<<<<<<< HEAD
-          <div className="code-greeting">
-            <span className="pink">&lt;hello</span>{" "}
-            <span className="blue">name</span>
-            <span className="white">=</span>
-            <span className="yellow">"Ibrahim"</span>
-            <span className="pink">&gt;</span>
-          </div>
-          <h1>
-            Software Engineering
-            <br />
-            <span className="highlight">Student</span> &amp; Web Developer
-          </h1>
-          <p className="intro">
-            I enjoy turning ideas into{" "}
-            <span className="yellow">real things</span> through code.
-            I'm passionate about web development,{" "}
-            <span className="blue">problem solving</span>, and exploring
-            the world of <span className="green">AI</span>.
-          </p>
-          <p className="code-line">
-            <span className="pink">const</span>{" "}
-            <span className="blue">focus</span>{" "}
-            <span className="white">=</span>{" "}
-            <span className="yellow">
-              ["Web", "Problem Solving", "AI"]
-            </span>
-            <span className="white">;</span>
-          </p>
-=======
           <div className="code-window">
             <div className="code-window-header">
               <span className="code-window-tab">hero.dev</span>
@@ -138,8 +108,6 @@ function Home() {
               </div>
             </div>
           </div>
->>>>>>> d4519bc (style: update fonts to Geist, boost accent color contrast, add Vercel Analytics)
-
           <div className="skills stagger-list">
            <div className="skill">
               <span className="skill-icon react">
