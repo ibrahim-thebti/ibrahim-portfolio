@@ -11,7 +11,7 @@ function Certifications() {
   const certifications = [
     {
      image: certificate8,
-      title: "Oracle Cloud Infrastructure Certified AII Foundations Associate",
+      title: "Oracle Cloud Infrastructure Certified AI Foundations Associate",
       organization: "Oracle",
       date: "Oct 2026",
       link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=9F175C6C721660083B1E6C509C7D4E132B9DCA0CF46EF979DC84B0AC6395BCD5",
