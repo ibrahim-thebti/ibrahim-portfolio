@@ -5,10 +5,17 @@ import certificate4 from "../../images/certifications/AI901.png";
 import certificate6 from "../../images/certifications/resp.png";
 import certificate5 from "../../images/certifications/sql.jpg";
 import certificate7 from "../../images/certifications/cp.png";
-
+import certificate8 from "../../images/certifications/eCertification.jpg";
 import "./certifications.css";
 function Certifications() {
   const certifications = [
+    {
+     image: certificate8,
+      title: "Oracle Cloud Infrastructure Certified AII Foundations Associate",
+      organization: "Oracle",
+      date: "Oct 2026",
+      link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=9F175C6C721660083B1E6C509C7D4E132B9DCA0CF46EF979DC84B0AC6395BCD5",
+    },
     {
       image: certificate1,
       title: "GitHub Foundations GH-900",
